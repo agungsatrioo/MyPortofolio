@@ -1,3 +1,29 @@
-.header_bg {
-    background: url('../img/header_img.png')
+.left-side {
+    background: url('../img/my_potrait.png') no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+    float: none;
+    display: table-cell;
+}
+
+.right-side {
+    float: none;
+    display: table-cell;
+}
+
+.masthead {
+    background: url(../img/my_potrait.png) no-repeat, url(../img/header_img.png);
+}
+
+#education {
+    background: url(../img/portfolio-5.jpg);
+    color: black
+}
+
+.text-faded {
+    color:black !important;
+}
+
+.service-icon {
+    line-height: 7rem !important
 }
