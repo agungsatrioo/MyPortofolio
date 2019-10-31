@@ -11,6 +11,10 @@
     display: table-cell;
 }
 
+.bg-warning {
+  background-color: #F2C94C !important;
+}
+
 .masthead {
     background: url(../img/my_potrait.png) no-repeat, url(../img/header_img.png);
 }
