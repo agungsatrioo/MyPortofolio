@@ -12,11 +12,17 @@
 }
 
 .bg-warning {
-  background-color: #F2C94C !important;
+  background-color: #FF9800 !important;
 }
 
 .masthead {
-    background: url(../img/my_potrait.png) no-repeat, url(../img/header_img.png);
+    background-color: #4CAF50;
+}
+
+.masthead-avatar {
+  width: 200px;
+  height: auto;
+    border-radius: 50%;
 }
 
 #education {
@@ -32,27 +38,80 @@
     line-height: 7rem !important
 }
 
+.socmed-icon {
+    text-decoration: none !important;
+    margin-left:10px;
+}
+
 .icon-fb {
-    background: #3b5998 !important
+    font-size: 2em;
+    color: #3b5998;
+    background: linear-gradient(to bottom, transparent 50%, #3b5998 50%);
+    background-size: 100% 200%;
+    background-position:left top;
+    transition:all .5s ease;
+}
+
+.icon-fb:hover {
+    color: white;
+    background-position:left bottom;
 }
 
 .icon-twitter {
-    background: #1da1f2 !important
+    font-size: 2em;
+    color: #1da1f2 !important;
+    background: linear-gradient(to bottom, transparent 50%, #1da1f2 50%);
+    background-size: 100% 200%;
+    background-position:left top;
+    transition:all .5s ease;
+}
+
+.icon-twitter:hover {
+    color: white !important;
+    background-position:left bottom;
 }
 
 .icon-github {
-    background: #14171a !important
+    font-size: 2em;
+    color: #14171a !important;
+    background: linear-gradient(to bottom, transparent 50%, #14171a 50%);
+    background-size: 100% 200%;
+    background-position:left top;
+    transition:all .5s ease;
 }
 
-.icon-whatsapp {
-    background: #25d366 !important
+.icon-github:hover {
+    color: white !important;
+    background-position:left bottom;
 }
 
 .icon-gitlab {
-    background: #E2432A !important
+    font-size: 2em;
+    color: #E2432A !important;
+    background: linear-gradient(to bottom, transparent 50%, #E2432A 50%);
+    background-size: 100% 200%;
+    background-position:left top;
+    transition:all .5s ease;
 }
 
+.icon-gitlab:hover {
+   color: white !important;
+    background-position:left bottom;
+}
 
+.icon-linkedin {
+    font-size: 2em;
+    color: #0e76a8 !important;
+    background: linear-gradient(to bottom, transparent 50%, #0e76a8 50%);
+    background-size: 100% 200%;
+    background-position:left top;
+    transition:all .5s ease;
+}
+
+.icon-linkedin:hover {
+   color: white !important;
+    background-position:left bottom;
+}
 
 .crop {
     width: 700px;
